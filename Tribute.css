@@ -1,0 +1,8 @@
+.Section_1{
+  background-color: black;
+  height: 150px;
+}
+
+.Section_1 .p{
+  color: white;
+}
