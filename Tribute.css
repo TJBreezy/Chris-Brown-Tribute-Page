@@ -44,7 +44,7 @@ header{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-left: 50px;
   color: beige;
 }
@@ -71,3 +71,8 @@ header{
   font-size: 20px;
 }
 
+header button:hover{
+  background-color: rgb(154, 204, 228);
+  color: rgb(226, 226, 219);
+  transition: 0.1s;
+}
