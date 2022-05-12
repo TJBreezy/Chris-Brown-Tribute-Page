@@ -81,7 +81,7 @@ header {
 
 header button:hover {
   cursor: pointer;
-  background-color: rgb(154, 204, 228);
+  background-color: rgb(111, 189, 219);
   color: rgb(226, 226, 219);
   transition: 0.1s;
 }
@@ -173,13 +173,13 @@ header button:hover {
   background-color: rgb(111, 189, 219);
   transition: 0.1s;
 }
-/*Add scroll functionality in div. Also, change the size so that all images are visible above the bottom section*/
+/*Add scroll functionality in one music div only. Also, change the size so that all images are visible above the bottom section*/
 .music {
   overflow-y: scroll;
   height: 1100px;
   margin-bottom: 200px;
 }
 /*hide scroll bar in Chrome and Safari*/
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
