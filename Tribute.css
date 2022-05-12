@@ -1,8 +1,39 @@
 .Section_1{
+  position: fixed;
   background-color: black;
+  width: 100%;
   height: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -10px;
 }
 
-.Section_1 .p{
-  color: white;
+.logo{
+  flex: 40%;
+  padding-left: 50px;
+  padding-top: 40px;
 }
+.logo img{
+  background-color: rgb(219, 219, 219);
+  border-radius: 50px;
+}
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.content button{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  background-color: rgb(219, 219, 219);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  flex: 1;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 60px;
+}
+
